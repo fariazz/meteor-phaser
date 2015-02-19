@@ -13,4 +13,5 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
   api.addFiles('lib/phaser/build/phaser.js', 'client', {bare: true});
+  api.addFiles('export.js', 'client', {bare: true});
 });
