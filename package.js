@@ -1,6 +1,6 @@
 Package.describe({
   name: 'digioak:meteor-phaser',
-  version: '2.2.2',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'Phaser.io packaged for Meteor',
   // URL to the Git repository containing the source code for this package.
