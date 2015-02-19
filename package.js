@@ -1,6 +1,6 @@
 Package.describe({
   name: 'digioak:meteor-phaser',
-  version: '3.1.0',
+  version: '3.1.1',
   // Brief, one-line summary of the package.
   summary: 'Phaser.io packaged for Meteor',
   // URL to the Git repository containing the source code for this package.
@@ -12,7 +12,5 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.export('Phaser');
-  api.export('PIXI');
-  api.addFiles(['lib/phaser/build/phaser.js', 'export.js'], 'client', {bare: true});
+  api.addFiles(['lib/phaser/build/phaser.js'], 'client', {bare: true});
 });
