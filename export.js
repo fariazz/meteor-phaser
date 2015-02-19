@@ -1,4 +1,4 @@
-Phaser = this.Phaser;
-PIXI = this.PIXI;
-delete this.Phaser;
-delete this.PIXI;
+Phaser = window.Phaser;
+PIXI = window.PIXI;
+delete window.Phaser;
+delete window.PIXI;
